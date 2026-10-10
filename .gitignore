@@ -8,6 +8,8 @@ dist/
 
 # Environment variables
 .env
+.env.*
+!.env.example
 
 
 # Log files
@@ -28,3 +30,10 @@ Thumbs.db
 # Server-side specific ignores (if server is in a subfolder)
 server/node_modules/
 server/build/
+
+# Test output (jest coverage, Playwright MCP snapshots/logs/screenshots)
+coverage/
+.playwright-mcp/
+
+# Vite cache
+.vite/
