@@ -1,0 +1,46 @@
+- generic [ref=f1e3]:
+  - navigation [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - link "Campus Marketplace" [ref=f1e6] [cursor=pointer]:
+        - /url: /
+      - link "Listings" [ref=f1e7] [cursor=pointer]:
+        - /url: /listings
+      - link "Sell an Item" [ref=f1e17] [cursor=pointer]:
+        - /url: /listings/new
+    - generic [ref=f1e8]:
+      - generic [ref=f1e18]: Logged in as Playwright Tester
+      - button "Logout" [ref=f1e19] [cursor=pointer]
+  - generic [ref=f1e276]:
+    - heading "Edit Listing" [level=1] [ref=f1e277]
+    - generic [ref=f1e278]:
+      - generic [ref=f1e279]:
+        - generic [ref=f1e280]: Title
+        - textbox "Title" [ref=f1e281]: Someone elses desk
+      - generic [ref=f1e282]:
+        - generic [ref=f1e283]: Price
+        - spinbutton "Price" [ref=f1e284]: "40"
+      - generic [ref=f1e285]:
+        - generic [ref=f1e286]: Category
+        - combobox "Category" [ref=f1e287]:
+          - option "Textbooks"
+          - option "Electronics"
+          - option "Furniture" [selected]
+          - option "Clothing"
+          - option "Other"
+      - generic [ref=f1e288]:
+        - generic [ref=f1e289]: Condition
+        - combobox "Condition" [ref=f1e290]:
+          - option "New"
+          - option "Like New"
+          - option "Used" [selected]
+          - option "Worn"
+      - generic [ref=f1e291]:
+        - generic [ref=f1e292]: Status
+        - combobox "Status" [ref=f1e293]:
+          - option "Active"
+          - option "Sold" [selected]
+      - generic [ref=f1e294]:
+        - generic [ref=f1e295]: Description (optional)
+        - textbox "Description (optional)" [ref=f1e296]
+      - generic [ref=f1e298]: You can only edit your own listings
+      - button "Save" [active] [ref=f1e297] [cursor=pointer]

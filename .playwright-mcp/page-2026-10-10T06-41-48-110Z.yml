@@ -1,0 +1,87 @@
+- generic [ref=f1e3]:
+  - navigation [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - link "Campus Marketplace" [ref=f1e6] [cursor=pointer]:
+        - /url: /
+      - link "Listings" [ref=f1e7] [cursor=pointer]:
+        - /url: /listings
+      - link "Sell an Item" [ref=f1e17] [cursor=pointer]:
+        - /url: /listings/new
+    - generic [ref=f1e8]:
+      - generic [ref=f1e18]: Logged in as Playwright Tester
+      - button "Logout" [ref=f1e19] [cursor=pointer]
+  - generic [ref=f1e41]:
+    - generic [ref=f1e43]:
+      - generic [ref=f1e44]:
+        - generic [ref=f1e45]:
+          - generic [ref=f1e46]: Calculus textbook • 25
+          - generic [ref=f1e47]: textbooks • like-new • active • by Playwright Tester
+        - generic [ref=f1e48]:
+          - link "Edit" [ref=f1e49] [cursor=pointer]:
+            - /url: /listings/6ac9de2455ec054d291c4550
+          - button "Remove" [ref=f1e50] [cursor=pointer]
+      - paragraph [ref=f1e51]: Stewart 8th edition
+    - generic [ref=f1e52]:
+      - generic [ref=f1e54]:
+        - generic [ref=f1e55]: Calculus Textbook • 300
+        - generic [ref=f1e56]: textbooks • new • active • by Mina Medhat
+      - paragraph [ref=f1e57]: This is a test Textbook
+    - generic [ref=f1e60]:
+      - generic [ref=f1e61]: Someone elses desk • 40
+      - generic [ref=f1e62]: furniture • used • active • by Other Seller
+    - generic [ref=f1e65]:
+      - generic [ref=f1e66]: bag • 10
+      - generic [ref=f1e67]: clothing • used • active • by Chris
+    - generic [ref=f1e70]:
+      - generic [ref=f1e71]: Keyboard • 1000
+      - generic [ref=f1e72]: electronics • used • active • by Chris
+    - generic [ref=f1e75]:
+      - generic [ref=f1e76]: book • 5000
+      - generic [ref=f1e77]: textbooks • used • active • by maria
+    - generic [ref=f1e78]:
+      - generic [ref=f1e80]:
+        - generic [ref=f1e81]: chips • 0
+        - generic [ref=f1e82]: other • new • sold • by joyce
+      - paragraph [ref=f1e83]: gg
+    - generic [ref=f1e84]:
+      - generic [ref=f1e86]:
+        - generic [ref=f1e87]: e3we • 2
+        - generic [ref=f1e88]: textbooks • like-new • sold • by Mina Medhat
+      - paragraph [ref=f1e89]: ded
+    - generic [ref=f1e92]:
+      - generic [ref=f1e93]: story • 150
+      - generic [ref=f1e94]: textbooks • like-new • active • by jennie
+    - generic [ref=f1e97]:
+      - generic [ref=f1e98]: Youssef's Car • 1000
+      - generic [ref=f1e99]: electronics • new • active • by youssef
+    - generic [ref=f1e102]:
+      - generic [ref=f1e103]: book • 250
+      - generic [ref=f1e104]: textbooks • like-new • active • by Jana
+    - generic [ref=f1e107]:
+      - generic [ref=f1e108]: Calculus textbook • 300
+      - generic [ref=f1e109]: textbooks • like-new • active • by Mohamed
+    - generic [ref=f1e112]:
+      - generic [ref=f1e113]: ewe • 232
+      - generic [ref=f1e114]: other • used • sold • by Youssef
+    - generic [ref=f1e117]:
+      - generic [ref=f1e118]: dw • 500
+      - generic [ref=f1e119]: other • used • active • by Youssef
+    - generic [ref=f1e120]:
+      - generic [ref=f1e122]:
+        - generic [ref=f1e123]: QWKW • 12
+        - generic [ref=f1e124]: other • like-new • sold • by Youssef
+      - paragraph [ref=f1e125]: asklajwlq
+    - generic [ref=f1e128]:
+      - generic [ref=f1e129]: sas • 100
+      - generic [ref=f1e130]: clothing • worn • active • by Youssef
+    - generic [ref=f1e133]:
+      - generic [ref=f1e134]: eweqewqer • 500
+      - generic [ref=f1e135]: electronics • used • active • by Youssef
+    - generic [ref=f1e138]:
+      - generic [ref=f1e139]: wwvhqj • 200
+      - generic [ref=f1e140]: furniture • new • sold • by Youssef
+    - generic [ref=f1e141]:
+      - generic [ref=f1e143]:
+        - generic [ref=f1e144]: "Calculus: Early Transcendentals • 40"
+        - generic [ref=f1e145]: textbooks • used • available • by unknown
+      - paragraph [ref=f1e146]: 8th edition, some highlighting

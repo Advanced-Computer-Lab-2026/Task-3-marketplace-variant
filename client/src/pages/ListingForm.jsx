@@ -54,7 +54,8 @@ export default function ListingForm() {
 
     setForm(prev => ({
       ...prev,
-      [name]: name === 'price' ? Number(value) : value
+      // keep '' while the box is empty so typing "-" or clearing it isn't clobbered to 0
+      [name]: name === 'price' && value !== '' ? Number(value) : value
     }))
   }
 
@@ -67,7 +68,9 @@ export default function ListingForm() {
       if (id) {
         await api.patch(`/listings/${id}`, form)
       } else {
-        await api.post('/listings', form)
+        // status is only editable on existing listings; new ones default to active
+        const { status, ...body } = form
+        await api.post('/listings', body)
       }
 
       nav('/listings')
@@ -108,7 +111,6 @@ export default function ListingForm() {
             id="price"
             name="price"
             type="number"
-            min="0"
             className="input w-full"
             value={form.price}
             onChange={onChange}

@@ -1,0 +1,41 @@
+- generic [ref=f1e3]:
+  - navigation [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - link "Campus Marketplace" [ref=f1e6] [cursor=pointer]:
+        - /url: /
+      - link "Listings" [ref=f1e7] [cursor=pointer]:
+        - /url: /listings
+      - link "Sell an Item" [ref=f1e17] [cursor=pointer]:
+        - /url: /listings/new
+    - generic [ref=f1e8]:
+      - generic [ref=f1e18]: Logged in as Playwright Tester
+      - button "Logout" [ref=f1e19] [cursor=pointer]
+  - generic [ref=f1e20]:
+    - heading "New Listing" [level=1] [ref=f1e21]
+    - generic [ref=f1e22]:
+      - generic [ref=f1e23]:
+        - generic [ref=f1e24]: Title
+        - textbox "Title" [ref=f1e25]: Calculus textbook
+      - generic [ref=f1e26]:
+        - generic [ref=f1e27]: Price
+        - spinbutton "Price" [ref=f1e28]: "-5"
+      - generic [ref=f1e29]:
+        - generic [ref=f1e30]: Category
+        - combobox "Category" [ref=f1e31]:
+          - option "Textbooks" [selected]
+          - option "Electronics"
+          - option "Furniture"
+          - option "Clothing"
+          - option "Other"
+      - generic [ref=f1e32]:
+        - generic [ref=f1e33]: Condition
+        - combobox "Condition" [ref=f1e34]:
+          - option "New"
+          - option "Like New" [selected]
+          - option "Used"
+          - option "Worn"
+      - generic [ref=f1e35]:
+        - generic [ref=f1e36]: Description (optional)
+        - textbox "Description (optional)" [ref=f1e37]: Stewart 8th edition
+      - generic [ref=f1e39]: "\"price\" must be greater than or equal to 0"
+      - button "Save" [active] [ref=f1e38] [cursor=pointer]
